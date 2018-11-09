@@ -24,7 +24,7 @@ To run integration tests the API should be running. (Host the application in IIS
 ) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;`
 
 In the first place i cerated customer table as well and store all customer details in that table. I created FK to connect customerIds. Then I decided to not to use this table since the login mechanism is not needed which means i don't have users. 
-##If I need to do it as it should be the database script should be like:
+### If I need to do it as it should be the database script should be like:
 
 `CREATE TABLE order (
   orderId int(11) NOT NULL AUTO_INCREMENT,
