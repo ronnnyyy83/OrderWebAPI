@@ -7,7 +7,7 @@ I could write unit tests for create, update, get for database interactions, but 
 To run integration tests the API should be running. (Host the application in IIS or open 2 projects, one to run the API and the other one to run tests)
 
 ## For Database script use:
-`CREATE DATABASE albelli /*!40100 DEFAULT CHARACTER SET utf8 */;`
+`CREATE DATABASE XXX /*!40100 DEFAULT CHARACTER SET utf8 */;`
 
 `CREATE TABLE order (
   orderId int(11) NOT NULL AUTO_INCREMENT,
